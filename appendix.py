@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import sqlite3
 con = sqlite3.connect('eq.db')
-con = sqlite3.connect(r"I:\Dev\JMA-data\eq.db")
+
 cursor = con.cursor()
 
 cursor.execute('''
