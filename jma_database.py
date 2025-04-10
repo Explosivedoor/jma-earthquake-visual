@@ -64,14 +64,14 @@ placeholders = ','.join('?' * len(year_select))
 if select == "Magnitude":
     mag_select = col2.multiselect("Magnitude", ["0", "1", "2", "3", "4", "5", "6", "7"], "0")
     
-    # Create magnitude range conditions instead of IN clause
+    
     mag_conditions = []
     for mag in mag_select:
         lower_bound = float(mag)
         upper_bound = float(mag) + 0.9
         mag_conditions.append("magnitude BETWEEN ? AND ?")
     
-    # Combine conditions with OR (or use TRUE if no selection)
+   
     mag_where_clause = " OR ".join(mag_conditions) if mag_conditions else "1=1"
     
 
@@ -82,7 +82,7 @@ if select == "Magnitude":
         AND ({mag_where_clause})
     """
     
-    # Create params list: years first, then magnitude bounds
+   
     params = year_select
     for mag in mag_select:
         params.append(float(mag))       
