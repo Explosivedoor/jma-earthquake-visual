@@ -1,4 +1,11 @@
-# jma-earthquake-visual
+# JMA Earthquake Visual using Streamlit 
+For now you can run the jma.py or jma-database.py with 
+<code>streamlit run jma-database.py</code>
+or
+<code>streamlit run jma.py</code>
+
+
+
 ## JMA format for the data:
 This an example of line of data from the JMA data file:<br> 
 
