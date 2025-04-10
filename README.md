@@ -1,6 +1,6 @@
 # jma-earthquake-visual
 ## JMA format for the data:
-This an example of line of data from the JMA data file:
+This an example of line of data from the JMA data file:<br> 
  **J2021100722412305 014 353545 035 1400620 054 749912459D60W711B2 3 93CENTRAL CHIBA PREF       39K**
  
  J2021100722412305 includes agency, date and time in format AYYYYMMDDHHMMSSSS 
