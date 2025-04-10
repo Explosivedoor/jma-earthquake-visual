@@ -1,8 +1,7 @@
 # JMA Earthquake Visual using Streamlit 
-For now you can run the jma.py or jma-database.py with 
-<code>streamlit run jma-database.py</code>
-or
-<code>streamlit run jma.py</code>
+For now you can run the jma_database.py with 
+<code>streamlit run jma_database.py</code>
+
 
 
 
